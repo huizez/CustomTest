@@ -11,8 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:alpha="0.8"
-        android:background="#262A42"
+        android:background="@drawable/top_corner_bg"
         android:gravity="center">
 
         <TextView
@@ -30,8 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="320dp"
         android:orientation="vertical"
-        android:alpha="0.8"
-        android:background="#363A57">
+        android:background="@drawable/bottom_corner_bg">
         <!--应用信息：名称、图标、版本号-->
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,6 +43,7 @@
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="40dp"
+                android:background="@drawable/icon_corner_bg"
                 android:src="@drawable/bilibili"
                 />
             <!--名称和版本号-->
