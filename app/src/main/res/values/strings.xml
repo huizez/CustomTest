@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomDialog</string>
+
+    <string name="title">安装未知应用</string>
+    <string name="message">允许来自此来源的应用</string>
+    <string name="description">允许来自该来源的应用即表示，您同意对因使用这些应用可能导致的设备损坏或者数据丢失承担责任。</string>
+    <string name="allow">允许</string>
+    <string name="disallow">禁止</string>
+</resources>
