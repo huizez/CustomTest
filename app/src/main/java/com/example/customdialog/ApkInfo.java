@@ -1,18 +1,18 @@
 package com.example.customdialog;
 
-import android.widget.ImageView;
+import android.graphics.drawable.Drawable;
 
 public class ApkInfo {
 
-    private ImageView icon;
+    private Drawable icon;
     private String label;
     private String version;
 
-    public ImageView getIcon() {
+    public Drawable getIcon() {
         return icon;
     }
 
-    public void setIcon(ImageView icon) {
+    public void setIcon(Drawable icon) {
         this.icon = icon;
     }
 

@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-        CustomDialog dialog = new CustomDialog(this);
+        CustomDialog dialog = new CustomDialog(this, "com.tv.filemanager.os");
         dialog.show();
 
     }

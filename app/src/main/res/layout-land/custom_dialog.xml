@@ -44,7 +44,6 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="40dp"
                 android:background="@drawable/icon_corner_bg"
-                android:src="@drawable/bilibili"
                 />
             <!--名称和版本号-->
             <LinearLayout
